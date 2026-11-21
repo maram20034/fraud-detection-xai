@@ -1,0 +1,58 @@
+[
+    {
+        "Model":"MLP + Class Weights",
+        "Threshold":0.99,
+        "Accuracy":0.9992246058,
+        "Precision":0.7567567568,
+        "Recall":0.7887323944,
+        "F1-score":0.7724137931,
+        "PR-AUC":0.6723683703,
+        "ROC-AUC":0.9426126283,
+        "TN":42470,
+        "FP":18,
+        "FN":15,
+        "TP":56
+    },
+    {
+        "Model":"MLP + Undersampling",
+        "Threshold":0.970659256,
+        "Accuracy":0.9992246058,
+        "Precision":0.7567567568,
+        "Recall":0.7887323944,
+        "F1-score":0.7724137931,
+        "PR-AUC":0.6638685978,
+        "ROC-AUC":0.9301719989,
+        "TN":42470,
+        "FP":18,
+        "FN":15,
+        "TP":56
+    },
+    {
+        "Model":"Logistic Regression",
+        "Threshold":0.06,
+        "Accuracy":0.999201109,
+        "Precision":0.7534246575,
+        "Recall":0.7746478873,
+        "F1-score":0.7638888889,
+        "PR-AUC":0.723792877,
+        "ROC-AUC":0.9643097239,
+        "TN":42470,
+        "FP":18,
+        "FN":16,
+        "TP":55
+    },
+    {
+        "Model":"MLP + SMOTE",
+        "Threshold":0.9958679676,
+        "Accuracy":0.999201109,
+        "Precision":0.7936507937,
+        "Recall":0.7042253521,
+        "F1-score":0.7462686567,
+        "PR-AUC":0.7407896696,
+        "ROC-AUC":0.9547854108,
+        "TN":42475,
+        "FP":13,
+        "FN":21,
+        "TP":50
+    }
+]

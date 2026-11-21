@@ -1,0 +1,36 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dataset files - keep only documentation
+data/*
+!data/README.md
+
+# Temporary and cache files
+.cache/
+*.log
+*.tmp
+
+# OS
+.DS_Store
+Thumbs.db
